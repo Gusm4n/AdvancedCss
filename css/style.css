@@ -1,0 +1,51 @@
+/*  Reset da página */
+
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #252525;
+}
+
+/* Menu do site*/
+
+.menu {
+    background: #252525;
+    padding: 20px 0;
+}
+
+.menuContainer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menuContainer::after, .menuContainer::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menuLogo {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.menuNav {
+    float: right;
+}
+
+.menuNav li {
+    display: inline-block;
+}
+
+.menuNav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125em;
+}
